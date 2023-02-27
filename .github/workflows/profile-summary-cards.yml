@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: generate
+    
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v2
@@ -16,4 +19,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_CARDS_TOKEN }}
         with:
-          USERNAME: ${{ github.repository_owner }}
+          USERNAME: ${{ github.repository_owner }}          
+          BRANCH_NAME: "main"
+
