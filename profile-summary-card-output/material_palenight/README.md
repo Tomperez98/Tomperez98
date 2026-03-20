@@ -52,13 +52,3 @@
 ```
 
     
-
----
-
-![](./4-productive-time.svg)
-
-```
-![](https://raw.githubusercontent.com/Tomperez98/Tomperez98/main/profile-summary-card-output/material_palenight/4-productive-time.svg)
-```
-
-    
